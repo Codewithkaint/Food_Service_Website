@@ -1,0 +1,90 @@
+@import './uti.css';
+@import './vari.css';
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+   -webkit-font-smoothing:antialiased;  
+}
+header{
+    background:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2)),url('./foo.jpg');
+    min-height: 75vh;
+ background-size: cover;  
+
+}
+.social a{
+    border: 2px solid white;
+    border-radius: 50%;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:30% 0%;
+  
+    opacity: 0;
+}
+.social a i{
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+    font-display:none ;
+
+}
+.social a :hover{
+    color: rgb(66, 87, 252);
+    
+    transition: 0.1 all ease-in-out;
+    
+}
+@keyframes moves{
+from{
+transform: translate(-100px);
+}
+to{
+    transform: translate(0px);
+    opacity: 1; 
+}
+}
+.cta{
+    position: relative;
+}
+.social{
+    /* padding: 5% 0%; */
+    position: absolute; 
+    top: 0%;
+    left: 0%;
+    padding-right: 1.5%;
+    border-right:2px solid rgb(95, 94, 94)  ;
+ 
+    border-bottom:2px solid rgb(89, 88, 88)  ;
+    /* width: 10%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 100%;
+}
+h1{
+    color: white;
+}
+button{
+    color: white;
+}
+#right img{
+    height:50vh;
+   /* // transform: rotate(20deg); */
+    animation: movepic 10s ease-in-out infinite alternate ;
+
+}
+@keyframes movepic {
+    50%{
+        transform:scale(0.4)
+    }
+    
+}

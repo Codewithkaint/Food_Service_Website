@@ -1,0 +1,761 @@
+
+    
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+   -webkit-font-smoothing:antialiased;  
+ 
+}
+html{   
+    scroll-behavior: smooth;
+}
+header{
+    background:black;  
+color: white;
+padding: 0.75rem 0rem;
+}
+#icons{
+    display: flex;
+    
+}
+#icons h3 span{
+color: red;
+font-weight: bolder;
+}
+#icons a i {
+    margin-top: 0.5rem;
+    margin-right:1rem;
+    font-size:1.5rem;
+    color: white;
+}
+#user div a{margin-right:1rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+}
+#user div i{
+    font-size: 1.3rem;
+    margin:0rem 0.3rem;
+    color: white;
+}
+.divide{
+    font-size: 1.3rem;
+    padding:0rem 0.5rem;
+}
+#user{
+    padding: 0.3rem;
+    border: 2px solid blueviolet;
+    display: flex;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.flexup{
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+    
+}
+.cont{
+        display: flex;
+      padding: 0.5rem;
+      align-items: center;
+     
+    }
+.cont i{
+
+        font-size: 2rem;
+        margin-right: 0.5rem;
+        color: rgb(14 255 14);;
+}
+nav{
+    
+    margin-top: 2rem;
+}
+h4{
+    font-weight: bold;
+}
+.navs .container {
+   
+    padding: 1rem 10rem; 
+    font-size: 1.5rem;
+
+}
+.navs .container a{
+    padding: 0.3rem 1.3rem;
+    margin: 0rem 0.3rem;
+    color: black;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+.navs{
+    margin-top: 10px;
+    border-bottom: 3px solid #807a7a;
+    border-radius: 30%;
+    
+}
+.navs .container a{
+    transition: all .3s ease-in-out;}
+.navs .container a:hover{
+    background-color: rgb(51, 6, 230);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+   
+    
+}
+#home{
+    background-color: rgb(52, 3, 251);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.red{
+color: red;
+}
+.white{
+color: rgb(255, 255, 255);
+}
+.changes:after{
+content: '';
+animation: changetext 10s infinite linear;
+color:rgb(255, 17, 0);
+font-weight: bold;
+}
+@keyframes changetext {
+    0%{
+        content:"World Best Online Food Services"
+    }
+    40%{
+        content:"HUNGRY ?"
+    }
+    55%{
+        content:"Unexpected Guest?"
+    }
+    75%{
+        content:"Cooking Gone Wrong"
+    }
+    100%{
+        content:"Order Fast"
+    }
+}
+.welcome{margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-bottom: 2rem;
+}
+
+.brand{
+    display: flex;
+    justify-content: center;
+   
+}
+.brand img{
+    width: 20rem;
+    border-radius: 30%;
+}
+.welcome img{
+    width: 8rem;
+    border-radius: 30%;
+    margin-left: 1.3rem;
+}
+#box{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./css/back.jpg');
+   min-height: 70vh;
+    background-size: cover;  
+    padding-left:3rem;
+}
+h1 span{
+    color: red;
+}
+.ops{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.btns{
+    margin-top: 2rem;
+}
+.btns button{
+    margin-right: 2rem;
+    box-shadow: 2px 4px 4px 2px grey;
+    border-radius: 20px;
+}
+.slide{
+    height: 100%;
+}
+ .carousel-inner{
+    height: 100%;
+
+} 
+.carousel-item{
+    height: 100%;
+   
+} 
+.carousel-item img{
+    height: 100%;
+   
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+
+
+}
+
+.foodhead{
+
+
+    text-align: center;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+
+.cart{box-shadow: 5px 5px 5px 5px;
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 15%;
+}
+hr{
+   background-color: gray;
+}
+.foodpic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgs{
+    width:10rem;
+    height: 6rem;
+}
+.imgs img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+ .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+.info button .i i{
+    color: black;
+}
+.info button .i{
+     display: flex;
+    width: 8rem;
+ align-items: center;
+justify-content: space-between;
+padding: 0.3rem;
+border: 2px solid black;
+color: red;
+
+transition: all .3s ease-in-out;
+} 
+.info button .i:hover{
+    border-radius: 20%;
+    color: black;
+    transform: scale(1.3);
+    background-color: yellow;
+} 
+
+.star{
+    display: flex;
+}
+.star img{
+    width: 1.1rem;
+}
+.info button p{
+     font-size: 1rem;
+    font-weight: bold;
+    margin-left: 0.8rem;
+}
+.info button img{
+    width: 2rem;
+}
+.slider{
+display: flex;
+justify-content: space-around;
+border: 2px solid red;
+padding: 2rem;
+}
+.boxi{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+}
+.new{
+    background-color: rgb(223 218 218);
+    padding:  1rem 8rem;
+    margin-top: 3rem;
+}
+.sll{
+    padding: 0rem 2rem;
+}
+.name{
+    font-weight: bold;
+}
+.bt{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inn{
+    display: flex;
+    justify-content: space-around;
+margin-top: 2rem;
+}
+.first{
+    padding: 0 2rem;
+    width: 22rem;
+}
+.first img{
+    border-radius: 20%;
+    height: 100%;
+    width: 100%;
+}
+.asd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 3rem;
+    width: 30rem;
+}
+.second p{
+    text-align: left;
+    font-size: 1.3rem;
+}
+.second h3{
+    text-align: left;
+    
+}
+.sec{
+    margin-top: 3rem;
+}
+.third{padding-top: 3rem;
+    background-color: rgb(161, 246, 246);
+}
+.imgss{
+    width: 7rem;
+}
+.third{
+    margin-top: 2.5rem;
+}
+.imgss img{
+    height: 100%;
+    width: 100%;
+}
+
+.imfo{
+    margin: 3rem;
+    border: 2px solid black;
+    padding: 1rem 2rem;
+    border-radius: 20%;
+}
+.imfo h4{
+    text-align: center;
+}
+.imfo p{font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.services{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serpic{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#four{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),url('./css/ba2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 2rem;
+    margin-top: 3rem;
+}
+#boxes{
+    margin-top: 3rem;
+
+    padding: 2rem 10rem;
+    display: flex;
+justify-content:space-evenly;
+
+}
+
+.o1,.o2,.o3{width: 8rem;
+height:  8rem;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+  
+background-color: yellow;
+border-radius: 20%;
+}
+.pl{
+    color: white;
+ 
+}
+.imgbox{
+    width: 20rem;
+}
+.imgbox img{border-radius: 20%;
+    width: 100%;
+    height: 100%;
+}
+.p1{box-shadow: 3px 3px 3px 3px;
+    padding: 2rem;
+    margin: 1rem 4rem;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0px 20% 0 0 ;
+    }
+#boxes1{
+    margin-top: 3rem;
+justify-content: space-around;
+    padding: 2rem 10rem;
+    display: flex;
+
+}
+.details{ margin-top:2rem;
+    width: 20rem;}
+.details h4{
+    text-align: center;
+}
+.details p{
+    text-align: center;
+    font-size: 1.1rem;
+}
+#five{
+    padding: 3rem 3rem;
+}
+.per{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+.per span{
+    font-weight: bold;
+}
+#six{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+ 
+}
+#ser{
+    background-color: yellow;
+}
+#imgx{margin-right: 1.5rem;
+    width: 30rem;
+}
+#imgx img{
+    border-radius:20% ;
+    width: 100%;
+    height: 100%;
+}
+
+.rightside{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#ino h3,#ino h6{
+    margin: 1rem 0;
+    text-align: center;
+}
+.yred{
+    border-radius: 0 10% 10% 0;
+    color: white;
+    background-color: red;
+}
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext {
+ 
+    width: 18rem;
+
+}
+
+.btn {
+    font-size: 1.3rem;}
+    .form-control {
+        font-size: 1.3rem;}
+    
+        #fomsa{
+            z-index: -1;
+            display: flex;
+
+         padding: 2rem 3rem;
+        align-items: center;
+        justify-content: space-around;
+        }
+    .form-control {
+            width: 30rem;}
+#leftfom{
+    display: inline-block;
+    margin-right: 2rem;
+}
+#rightfom{
+    padding: 2.4rem;
+    display: inline-block;
+    border-radius: 0 20% 0 0;
+    border: 4px solid rgb(14, 58, 255);
+}
+
+#vbt{
+    width: 30rem;
+
+}
+.form-group input,.form-group textarea{
+    border: 2px solid black;
+}
+footer{
+    display: flex;
+margin-top: 2rem;
+         
+        align-items: center;
+        justify-content: space-around;
+    padding: 3rem 8rem;
+    background-color: rgb(149 148 148);
+}
+    .fooimg{
+        width: 10rem;
+        margin-bottom: 2rem;
+    }
+    .fooimg img{
+        width: 100%;
+        height: 100%;
+    }
+    h3 h2{color: red;}
+    .two{
+        padding: 2rem;
+        border: 5px solid rgb(212, 210, 210);
+        border-radius: 0 20% 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+    }
+    .fooinfo h2{
+        text-align: center;
+        color: rgb(240 246 0);
+        font-weight: bold;
+    }
+    .fooinfo div h1{
+        text-align: center;
+        color: rgb(25, 243, 87);
+        font-weight: bold;
+    }
+    .pop {
+       margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .pop div{
+        border-radius: 50%;
+        border: 4px solid red;
+        padding: 1rem;
+background-color: black;
+    }
+    .pop div i{
+        color: white;
+        font-size: 1.5rem;
+        transition: all .3s ease-in-out;
+    }
+    .pop div i:hover{
+         transform: rotate(360deg);
+    }
+    .BN{
+        padding: 2rem 8rem;
+    }
+    .social a{
+  
+   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:2%;
+        text-decoration: none;
+        opacity: 0;
+    }
+    .social a i{
+        margin:1rem 0rem;
+        font-size: 2.3rem;
+       font-weight: bold;
+        font-display:none ;
+        transition: all .3s ease-in-out;
+    }
+    .social a i:hover{
+         transform: rotate(360deg);
+    }
+    .social a img:hover{
+         transform: rotate(360deg);
+    }
+    
+    .social a img{ margin:1rem 0rem;
+      width: 2.3rem;
+    border-radius: 30%;
+    transition: all .5s ease-in-out;
+    }
+    .social a :hover{
+       
+        
+        transition: 0.1 all ease-in-out;
+        
+    }
+    @keyframes moves{
+    from{
+    transform: translate(-100px);
+    }
+    to{
+        transform: translate(0px);
+        opacity: 1; 
+    }
+    }
+    .social{
+       width: 4rem;
+       /* height: 20rem; */
+       padding: 1.1rem 1rem;
+        position:fixed; 
+        top:20%;
+        left:  0%;
+        border-right:2px solid rgb(95, 94, 94)  ;
+     background-color: rgb(8, 0, 0);
+        border-bottom:2px solid rgb(89, 88, 88)  ;
+        border-radius: 0% 20% 20% 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    } 
+    #all{
+        display: none;
+        position: fixed;
+        top: 0%;
+        width: 100%;
+        height: 2rem;
+    }
+    #albox{
+        height:4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1.7rem;
+    }
+    #albox #alp{
+font-size: 2rem;
+color: rgb(13, 3, 3);
+}
+    #albox #aldp{
+font-size: 1.5rem;
+color: rgb(13, 3, 3);
+margin-left: 0.5rem;
+}
+#login{
+    cursor: pointer;
+    
+}
+#login:hover{
+color: rgb(255, 36, 207);}
+
+#thankYou{
+   
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(0.1);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+visibility: hidden;
+  transition:transform 0.7s,top 0.7s  ;
+
+
+}
+.openThank{
+   
+    top: 50%;
+    transform: translate(-50%,-50%)scale(1);
+   
+visibility: visible;
+  
+
+
+}
+
+#thankYou img{
+width: 10rem;
+height: 10rem;
+z-index:  1;
+border-radius:50% ;
+}
+#seclast{
+ 
+    margin-top: 3rem;
+    position: relative;
+  
+
+}
+#thankText{margin-top: -3rem;
+    background-color: rgb(4, 4, 4);
+   z-index: -1;
+   padding: 0 2rem;
+   border: 4px solid rgb(241, 241, 241);
+   border-radius: 2rem;
+  
+}
+#thankText h2{margin-top: 3.5rem;
+    color: #fff;
+  
+}
+#thankText h4{
+    color: #fff;
+  
+}
+#thankText button{margin: 1.2rem 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 2rem;
+}
+.btn-success {
+    color: #fff;
+    background-color: #4fea72;}
